@@ -8,7 +8,7 @@ from main import Agent
 
 
 '-------------------------------------'
-drone, marker = init_simulation(render = True)
+drone, marker = init_simulation(render = False)
 
 env = Quadcopter(drone, marker)
 agent = Agent()
